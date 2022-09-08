@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tags</title>
+</head>
+<body>
+
+    <!-- (<=&lt)(>=&gt)(&quot="") -->
+
+    <h1>Html Commands</h1>
+    
+    <dl>
+        <dt><b>&ltimg&gt</b></dt>
+            <ul>
+                <dd><li>purpose: embeds and image into the <a href="https://en.wikipedia.org/wiki/Document">document</a></dd></li>
+                <dd><li>example: &ltimg src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/390px-Cat_poster_1.jpg"&gt</dd></li>
+                <dd><li>attributes:</li></dd>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Values</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr>
+                        <td align="center">src</td>
+                        <td>URL</td>
+                        <td>source file</td>
+                    </tr>
+                    <tr>
+                        <td align="center">height</td>
+                        <td>number, percentage</td>
+                        <td>The intrisinic height of the image,in pixels. Must be and integer without a unit</td>
+                    </tr>
+                    <tr>
+                        <td align="center">width</td>
+                        <td>number, percentage</td>
+                        <td>The intrinsic width of the image in pixels. Must be an integer without a unit</td>
+                    </tr>
+                    <tr>
+                        <td align="center">alt</td>
+                        <td>text</td>
+                        <td>Defines an alternative text desctiption of the image.</td>
+                    </tr>
+                </table>
+            </ul>
+    </dl>
+    
+    <dl>
+        <dt><b>&lta&gt, &lt/a&gt</b></dt>
+            <ul>
+            <dd><li>purpose: anchor element, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a <a href="https://en.wikipedia.org/wiki/URL">URL</a> can address.</li></dd>
+            <dd><li>Example: <a href="https://en.wikipedia.org/wiki/Cat">&lta href="https://en.wikipedia.org/wiki/Cat"> Wiki Cats.&lt/a></a></li></dd>
+            <dd><li>attributes:</li></dd>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Values</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td align="center">href</td>
+                    <td>URL</td>
+                    <td>The URL that the hyperlink points to.</td>
+                </tr>
+                <tr>
+                    <td rowspan="5" align="center">target</td>
+                    <td>name_of_frame</td>
+                    <td>Where to display the linked URL, as the name for a browsing context (a tab, window, or &ltiframe></td>
+                </tr>
+                <tr>
+                    <td>_blank</td>
+                    <td>usually a new tab, but users can configure browsers to open a new indow instead.</td>
+                </tr>
+                <tr>
+                    <td>_parent</td>
+                    <td>the parent browing context of the current one. If no parent, behaves as _self.</td>
+                </tr>
+                <tr>
+                    <td>_top</td>
+                    <td>the topmost browsing context (the "highest"context that's and ancestor of the current one). If not ancestors, behaves as_self  </td>
+                </tr>
+                <tr>
+                    <td>_self</td>
+                    <td>the current browsing context. (Default)</td>
+                </tr>
+            </table>
+            </ul>
+        <dl>
+            
+    <dl>
+        <dt><b>&ltp>, &lt/p></b></dt>
+        <ul>
+            <dd><li>purpose: new paragraph</li></dd>
+            <dd><li>attributes:</li></dd>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Values</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td align="center">This element only inclues the global attributes. <br>
+                         Note: The align attribue on &ltp> tags is obsolete and shouldn't be used.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </ul>
+    </dl>
+    <dl>
+        <dt><b>&ltb>, &lt/b></b></dt>
+        <ul>
+            <dd><li>purpose: to make text bold</li></dd>
+            <dd><li>Example: &ltb>This is bold text&lt/b></li></dd>
+            <dd><li>attributes:</li></dd>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Values</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td align="center">This element only inclues the global attributes. <br>
+                        Note: according to the HTML5 specification, the &ltb> tag should be used as a LAST resort when no other tag is more appropriate.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </ul>
+    </dl>
+    <dl>
+        <dt><b>&lth1> - &lt/h6></b></dt>
+        <ul>
+            <dd><li>purpose: used to define HTML headings</li></dd>
+            <dd><li>Example: &lth1>This is an HTML heading&lt/h1></li></dd>
+            <dd><li>attributes:</li></dd>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Values</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td align="center">This element only inclues the global attributes. <br>
+                        Note: Only use one &lth1> per page - this should represent the main heading/subject for the whole page.<br> Also, do not skip heading levels - start with &lth1>, then use &lth2>, and so on.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </ul>
+    </dl>
+
+</body>
+</html>
